@@ -1,0 +1,58 @@
+{
+  "_from": "commitr",
+  "_id": "commitr@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-wbWDS33s0gY+yM9o3Hh5/WFFaNw=",
+  "_location": "/commitr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "commitr",
+    "name": "commitr",
+    "escapedName": "commitr",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/commitr/-/commitr-1.1.5.tgz",
+  "_shasum": "c1b5834b7decd2063ec8cf68dc7879fd614568dc",
+  "_spec": "commitr",
+  "_where": "/Users/jkaufman/Desktop/new_projects",
+  "author": {
+    "name": "Dain Chatel",
+    "email": "dain.chatel@gmail.com",
+    "url": "http://dainchatel.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dainchatel/commitr/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A background script that automatically makes between 3 and 13 random Github commits in a dummy repo per day (to keep commit counts high).  ",
+  "homepage": "https://github.com/dainchatel/commitr#readme",
+  "keywords": [
+    "git",
+    "github",
+    "commit",
+    "autocommit"
+  ],
+  "license": "ISC",
+  "main": "commitr.js",
+  "name": "commitr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dainchatel/commitr.git"
+  },
+  "scripts": {
+    "clear": "node clear.js",
+    "start": "nohup node commitr.js & echo $! > save_pid.txt",
+    "stop": "kill -9 `cat save_pid.txt` && rm save_pid.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.5"
+}

@@ -1,0 +1,9 @@
+hello
+1 'touch'
+exec error: Error: Command failed: cd ~/new_projects/projects && touch 1.txt && git add -A && git commit -m '8 add 1' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+2 'touch'
+exec error: Error: Command failed: cd ~/new_projects/projects && touch 2.txt && git add -A && git commit -m '7 add 2' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
