@@ -7,3 +7,37 @@ exec error: Error: Command failed: cd ~/new_projects/projects && touch 1.txt && 
 exec error: Error: Command failed: cd ~/new_projects/projects && touch 2.txt && git add -A && git commit -m '7 add 2' && git push
 /bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
 
+3 'touch'
+exec error: Error: Command failed: cd ~/new_projects/projects && touch 3.txt && git add -A && git commit -m '6 add 3' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+4 'touch'
+exec error: Error: Command failed: cd ~/new_projects/projects && touch 4.txt && git add -A && git commit -m '5 add 4' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+5 'touch'
+exec error: Error: Command failed: cd ~/new_projects/projects && touch 5.txt && git add -A && git commit -m '4 add 5' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+5 'rm'
+exec error: Error: Command failed: cd ~/new_projects/projects && rm 5.txt && git add -A && git commit -m '3 remove 5' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+4 'rm'
+exec error: Error: Command failed: cd ~/new_projects/projects && rm 4.txt && git add -A && git commit -m '2 remove 4' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+3 'rm'
+exec error: Error: Command failed: cd ~/new_projects/projects && rm 3.txt && git add -A && git commit -m '1 remove 3' && git push
+/bin/sh: line 0: cd: /Users/jkaufman/new_projects/projects: No such file or directory
+
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
+not time yet
